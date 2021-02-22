@@ -8,12 +8,6 @@ deployDir=../community-deploy-dir
 mkdir ${kieVersion}_uploadBinaries
 cd ${kieVersion}_uploadBinaries
 
-# updatesite
-mkdir updatesite
-cp  $deployDir/org/drools/org.drools.updatesite/$kieVersion/org.drools.updatesite-$kieVersion.zip updatesite/
-unzip updatesite/org.drools.updatesite-$kieVersion.zip -d updatesite/
-rm updatesite/org.drools.updatesite-$kieVersion.zip
-
 # docs
 mkdir drools-docs
 cp  $deployDir/org/drools/drools-docs/$kieVersion/drools-docs-$kieVersion.zip drools-docs/
@@ -48,7 +42,6 @@ rm optaweb-vehicle-routing-docs/optaweb-vehicle-routing-docs-$kieVersion.zip
 # drools
 cp $deployDir/org/drools/drools-distribution/$kieVersion/drools-distribution-$kieVersion.zip .
 cp $deployDir/org/drools/droolsjbpm-integration-distribution/$kieVersion/droolsjbpm-integration-distribution-$kieVersion.zip .
-cp $deployDir/org/drools/droolsjbpm-tools-distribution/$kieVersion/droolsjbpm-tools-distribution-$kieVersion.zip .
 cp $deployDir/org/kie/business-central/$kieVersion/business-central-$kieVersion-*.war .
 cp $deployDir/org/kie/server/kie-server-distribution/$kieVersion/kie-server-distribution-$kieVersion.zip .
 
