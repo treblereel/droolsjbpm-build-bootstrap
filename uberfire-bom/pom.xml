@@ -1299,44 +1299,6 @@
       <!-- From Guvnor -->
       <dependency>
         <groupId>org.uberfire</groupId>
-        <artifactId>uberfire-m2repo-editor-api</artifactId>
-        <version>${version.org.uberfire}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.uberfire</groupId>
-        <artifactId>uberfire-m2repo-editor-api</artifactId>
-        <version>${version.org.uberfire}</version>
-        <classifier>sources</classifier>
-      </dependency>
-      <dependency>
-        <groupId>org.uberfire</groupId>
-        <artifactId>uberfire-m2repo-editor-backend</artifactId>
-        <version>${version.org.uberfire}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.uberfire</groupId>
-        <artifactId>uberfire-message-console-api</artifactId>
-        <version>${version.org.uberfire}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.uberfire</groupId>
-        <artifactId>uberfire-message-console-api</artifactId>
-        <version>${version.org.uberfire}</version>
-        <classifier>sources</classifier>
-      </dependency>
-      <dependency>
-        <groupId>org.uberfire</groupId>
-        <artifactId>uberfire-project-api</artifactId>
-        <version>${version.org.uberfire}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.uberfire</groupId>
-        <artifactId>uberfire-project-api</artifactId>
-        <version>${version.org.uberfire}</version>
-        <classifier>sources</classifier>
-      </dependency>
-      <dependency>
-        <groupId>org.uberfire</groupId>
         <artifactId>uberfire-project-backend</artifactId>
         <version>${version.org.uberfire}</version>
       </dependency>
