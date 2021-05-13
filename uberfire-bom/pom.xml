@@ -22,7 +22,7 @@
   <parent>
     <groupId>org.kie</groupId>
     <artifactId>kie-user-bom-parent</artifactId>
-    <version>7.53.0-SNAPSHOT</version>
+    <version>7.55.0-SNAPSHOT</version>
     <relativePath>../kie-user-bom-parent/pom.xml</relativePath>
   </parent>
 
@@ -1434,19 +1434,6 @@
       <dependency>
         <groupId>org.uberfire</groupId>
         <artifactId>uberfire-workingset-client</artifactId>
-        <version>${version.org.uberfire}</version>
-        <classifier>sources</classifier>
-      </dependency>
-
-      <!-- Appformer Kogito-->
-      <dependency>
-        <groupId>org.uberfire</groupId>
-        <artifactId>appformer-kogito-bridge</artifactId>
-        <version>${version.org.uberfire}</version>
-      </dependency>
-      <dependency>
-        <groupId>org.uberfire</groupId>
-        <artifactId>appformer-kogito-bridge</artifactId>
         <version>${version.org.uberfire}</version>
         <classifier>sources</classifier>
       </dependency>
